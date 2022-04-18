@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TuDien:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>TuDien</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="TuDien-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TuDien:war exploded" />
+    </root>
+  </artifact>
+</component>

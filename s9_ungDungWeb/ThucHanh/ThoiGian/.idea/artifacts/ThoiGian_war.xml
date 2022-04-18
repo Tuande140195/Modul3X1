@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ThoiGian:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ThoiGian</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ThoiGian-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ThoiGian:war exploded" />
+    </root>
+  </artifact>
+</component>

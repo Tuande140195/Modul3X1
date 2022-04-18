@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    color: #333;
+}
+
+header{
+    padding: 2px;
+    height: 50px;
+    background: gray;
+
+}
+#header ul {
+    background: #1F568B;
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+#header li {
+    color: #f1f1f1;
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+#header a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+#header a:hover {
+    background: #F1F1F1;
+    color: #333;
+}

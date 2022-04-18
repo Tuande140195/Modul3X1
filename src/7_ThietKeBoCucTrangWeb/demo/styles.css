@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#header{
+    background: blanchedalmond;
+    height: 100px;
+    width: 100%;
+}
+#nav{
+    background: black;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+#main{
+    background: aqua;
+    height: 300px;
+    width: 60%;
+    float: left;
+}
+#sidebar{
+    background: burlywood;
+    height: 300px;
+    width: 20%;
+    float: left;
+}
+#footer{
+    background: blue;
+    height: 100px;
+    width: 100%;
+    clear: both;
+}
