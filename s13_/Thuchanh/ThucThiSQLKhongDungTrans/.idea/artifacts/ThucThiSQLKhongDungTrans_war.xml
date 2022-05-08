@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ThucThiSQLKhongDungTrans:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ThucThiSQLKhongDungTrans</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ThucThiSQLKhongDungTrans-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ThucThiSQLKhongDungTrans:war exploded" />
+    </root>
+  </artifact>
+</component>
