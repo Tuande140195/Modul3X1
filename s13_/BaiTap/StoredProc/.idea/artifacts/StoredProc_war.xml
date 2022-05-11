@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="StoredProc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>StoredProc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="StoredProc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="StoredProc:war exploded" />
+    </root>
+  </artifact>
+</component>

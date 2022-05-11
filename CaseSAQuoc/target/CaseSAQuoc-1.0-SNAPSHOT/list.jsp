@@ -9,6 +9,7 @@
 </head>
 <body>
      <h1>Product List</h1>
+     <a href="${pageContext.request.contextPath}/product?action=create">Create new Product</a>
      <table border="1">
          <tr>
              <th>STT</th>
@@ -30,9 +31,19 @@
                <td>${product.color}</td>
                <td>${product.describe}</td>
                <td>${product.menu}</td>
+               <td>
+                   <a href="${pageContext.request.contextPath}/product?action=delete&id=${product.id}">Delete</a>
+                   <a href="${pageContext.request.contextPath}/product?action=update&id=${product.id}">Update</a>
 
+               </td>
            </tr>
        </c:forEach>
+         <c:if test="message != null">
+             <h4>
+                ${message}
+             </h4>
+         </c:if>
+
      </table>
 </body>
 </html>
